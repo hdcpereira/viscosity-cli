@@ -1,0 +1,9 @@
+[package]
+name = "viscosity-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Personal CLI for Viscosity VPN via AppleScript (macOS only)"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
